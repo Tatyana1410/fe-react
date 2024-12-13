@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = () => {
     return (
-        < >
+        <>
             <header>
                 <div class="right-head"> 
                     {/* <img src="images/netflix-logo-png-2562 1.png" alt="logo-netflix"> */}
@@ -11,7 +11,7 @@ const Header = () => {
                 {/* <img src="images/Ellipse 2.png" alt="foto"> */}
                 </div>
             </header>
-        </ >
+        </>
     );
 };
 

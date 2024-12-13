@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Text = () => {
+const Content = () => {
     return (
         <>
             <div class="text-content">
@@ -26,9 +26,8 @@ const Text = () => {
                 <button class="stream">STREAM NOW <span style= "color:white;"><i class="fa-regular fa-circle-play"></i></span></button>
                 <button class="episodes">ALL EPISODES</button>
         </div>
-            
         </>
     );
 };
 
-export default Text;
+export default Content;

@@ -1,5 +1,5 @@
 import Header from "./components/Header"
-import Text from "./components/Text"
+import Content from "./components/Content"
 import Block from "./components/Block"
 import Textpict from "./components/Textpict"
 import Pictures from "./components/Pictures"
@@ -8,10 +8,11 @@ function App() {
   return (
     <>
     <Header></Header>
-    <Text></Text>
+    {/* <Content></Content> */}
     <Block></Block>
-    <Textpict></Textpict>
+    {/* <Textpict></Textpict> */}
     <Pictures></Pictures>
+    
     </>
   )
 }
